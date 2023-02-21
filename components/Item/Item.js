@@ -5,7 +5,7 @@ import PositionedCard from "./PositionedCard";
 
 const Item = (props) => {
   return (
-    <div class=" h-72 w-[11rem]  shadow-md">
+    <div class=" h-72 w-[12rem]  shadow-md">
       <div className="h-1/2 ">
         <Image
           alt="food_image"

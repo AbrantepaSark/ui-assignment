@@ -50,7 +50,7 @@ export default function Home() {
         <div className="lg:w-1/3 bg-white mx-auto">
           <Nav />
           <Search />
-          <div className="grid grid-cols-2 pb-10 mx-8 gap-x-8 gap-y-5">
+          <div className="grid grid-cols-2 lg:grid-cols-3 pb-10 mx-8 gap-x-8 gap-y-5">
             {foodList.map((item, index) => (
               <Item
                 key={index}

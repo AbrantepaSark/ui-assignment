@@ -20,15 +20,15 @@ const Item = (props) => {
         <div className="absolute -top-3 right-2">
           <PositionedCard />
         </div>
-        <h5 class="mb-1 text-[0.7rem] font-normal leading-tight text-[#712727]">
+        <h5 class="mb-1 text-[0.8rem] font-normal leading-tight text-[#712727]">
           {props.title}
         </h5>
         <p class="mb-3 text-[12px] text-gray-400 ">{props.description}</p>
 
         <p class="mb-2 font-bold text-xs text-red-400 ">{props.price}</p>
         <div
-          className={`mb-3 mx-auto w-1/2 bg-green-200 rounded-xl ${
-            props.status === "open" ? "bg-green-400" : "bg-red-200"
+          className={`mb-3 mx-auto w-1/5 md:w-2/5 bg-green-200 rounded-xl ${
+            props.status === "open" ? "bg-green-100" : "bg-red-100"
           }`}
         >
           <p

@@ -3,9 +3,6 @@ import Nav from "@/components/Nav/Nav";
 import Search from "@/components/Search/Search";
 import Head from "next/head";
 
-// import image_1 from "../assets/jollof-rice-1.jpeg";
-// import image_2 from "../assets/jollof_rice_2.jpeg";
-
 //const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   const foodList = [
@@ -18,14 +15,14 @@ export default function Home() {
     },
     {
       title: "Potato Chips with Chicken",
-      image: "/assets/jollof-rice-1.jpeg",
+      image: "/assets/jollof_rice_2.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 25.00",
       status: "closed",
     },
     {
       title: "Potato Chips with Chicken",
-      image: "/assets/jollof-rice-1.jpeg",
+      image: "/assets/jollof_rice_2.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 15.00",
       status: "closed",
@@ -37,6 +34,20 @@ export default function Home() {
       price: "GHC 50.00",
       status: "open",
     },
+    {
+      title: "Potato Chips with Chicken",
+      image: "/assets/jollof_rice_2.jpeg",
+      description: "Green Leaf Eatery",
+      price: "GHC 75.00",
+      status: "closed",
+    },
+    {
+      title: "Potato Chips with Chicken",
+      image: "/assets/jollof-rice-1.jpeg",
+      description: "Green Leaf Eatery",
+      price: "GHC 40.00",
+      status: "open",
+    },
   ];
   return (
     <>
@@ -46,7 +57,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <div className=" bg-white h-screen mx-auto lg:w-2/3 xl:w-1/2">
+        <div className=" bg-white m-0 mx-auto lg:w-2/3 xl:w-1/2">
           <Nav />
           <Search />
           <div className="grid grid-cols-1 md:grid-cols-2  justify-between pb-10 mx-8  gap-y-12 md:gap-x-8">

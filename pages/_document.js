@@ -9,7 +9,7 @@ export default function Document() {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         />
       </Head>
-      <body className="bg-gray-100 ">
+      <body className="bg-gray-200">
         <Main />
         <NextScript />
       </body>

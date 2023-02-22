@@ -13,7 +13,7 @@ const Search = () => {
         <input
           type="search"
           id="default-search"
-          className="block w-full p-4 text-sm text-gray-900 border  rounded-md outline-none focus:border-gray-500    dark:bg-white dark:border-[#ebd7d7] dark:placeholder-gray-400  "
+          className="block w-full p-4 text-sm text-gray-900 border  rounded-md outline-gray-400 outline-1 focus:border-none    dark:bg-white dark:border-[#ebd7d7] dark:placeholder-gray-400  "
           placeholder="Search..."
           required
         />

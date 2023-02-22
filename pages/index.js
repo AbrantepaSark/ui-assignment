@@ -3,37 +3,36 @@ import Nav from "@/components/Nav/Nav";
 import Search from "@/components/Search/Search";
 import Head from "next/head";
 
-import image_1 from "../assets/jollof-rice-1.jpeg";
-import image_2 from "../assets/jollof_rice_2.jpeg";
+// import image_1 from "../assets/jollof-rice-1.jpeg";
+// import image_2 from "../assets/jollof_rice_2.jpeg";
 
 //const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   const foodList = [
     {
       title: "Potato Chips with Chicken",
-      image: image_1,
+      image: "/assets/jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 30.00",
       status: "open",
     },
     {
       title: "Potato Chips with Chicken",
-      image: image_2,
+      image: "/assets/jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 25.00",
       status: "closed",
     },
     {
       title: "Potato Chips with Chicken",
-      image: image_2,
+      image: "/assets/jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 15.00",
       status: "closed",
     },
     {
       title: "Potato Chips with Chicken",
-      image: image_1,
+      image: "/assets/jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 50.00",
       status: "open",

@@ -8,7 +8,7 @@ export default function Home() {
   const foodList = [
     {
       title: "Potato Chips with Chicken",
-      image: "/assets/jollof-rice-1.jpeg",
+      image: "/assets/Jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 30.00",
       status: "open",
@@ -29,7 +29,7 @@ export default function Home() {
     },
     {
       title: "Potato Chips with Chicken",
-      image: "/assets/jollof-rice-1.jpeg",
+      image: "/assets/Jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 50.00",
       status: "open",
@@ -43,7 +43,7 @@ export default function Home() {
     },
     {
       title: "Potato Chips with Chicken",
-      image: "/assets/jollof-rice-1.jpeg",
+      image: "/assets/Jollof-rice-1.jpeg",
       description: "Green Leaf Eatery",
       price: "GHC 40.00",
       status: "open",

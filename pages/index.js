@@ -46,10 +46,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className="bg-gray-100">
-        <div className="lg:w-1/3 bg-white mx-auto">
+        <div className=" bg-white mx-auto">
           <Nav />
           <Search />
-          <div className="grid grid-cols-2 justify-between pb-10 mx-8  gap-y-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-between pb-10 mx-8  gap-y-12 md:gap-x-8">
             {foodList.map((item, index) => (
               <Item
                 key={index}
